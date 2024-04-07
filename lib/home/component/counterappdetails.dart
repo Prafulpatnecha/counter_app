@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../util/colors.dart';
@@ -36,7 +37,7 @@ class _HomepageState extends State<Homepage> {
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                InkWell(
+                GestureDetector(
                   onTap: () {
                     setState(
                       () {
